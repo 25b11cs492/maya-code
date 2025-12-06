@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main(){
+    int N, X; 
+    scanf("%d %d", &N, &X);
+    int remaining = N- X;
+    printf("%d", remaining);
+    return 0;
+}
